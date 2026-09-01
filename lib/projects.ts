@@ -22,30 +22,30 @@ export const projects: Project[] = [
   {
     slug: 'nocturne',
     index: '01',
-    title: 'Nocturne',
+    title: 'Reliving Chanel 1992',
     category: 'Fashion Editorial',
-    client: 'Maison Vasse',
+    client: 'Anthology of Style',
     year: '2025',
     cover: '/images/work-nocturne.png',
     summary:
-      'A midnight-hour editorial exploring silhouette and shadow for a heritage couture house.',
+      'An editorial series exploring historical fashion for a luxury secondhand retail house.',
     brief:
-      'Maison Vasse wanted to reintroduce their archive tailoring to a younger audience without diluting the house language. The ask: an editorial that felt nocturnal and severe, where the garment is revealed only through light — never fully, never comfortably.',
+      'A visual study and print production documenting Anthology of Style’s collection of archival 1992 Chanel. Studio Nyx Media executed full creative production: location scouting, talent casting, photography, post-production, and print catalog book design.',
     process: [
       {
         phase: 'Direction',
-        title: 'A single source of light',
-        body: 'We built the entire narrative around one hard key light, letting the fabric fall in and out of total black. The absence of fill became the subject.',
+        title: 'Direction',
+        body: 'Reviewing historical 1992 Chanel runway archives and catalog references alongside Anthology of Style to establish visual direction and wardrobe styling decisions.',
       },
       {
         phase: 'Production',
-        title: 'One room, one night',
-        body: 'Shot over a single overnight session in a stripped concrete studio. No sets, no color — only the model, the cloth, and the beam.',
+        title: 'Production',
+        body: 'Casting models and identifying locations across New York City. Managing full-day wardrobe prep, hair and makeup, model direction, and photography.',
       },
       {
         phase: 'Post',
-        title: 'Grain as texture',
-        body: 'A restrained film emulation and hand-dodged contrast preserved the deep blacks while keeping skin luminous and alive.',
+        title: 'Post',
+        body: 'Editing and color work, retouching, and image sequencing for final images. Layout design for a printed hardcover book documenting the entire curation.',
       },
     ],
     gallery: ['/images/work-nocturne.png', '/images/gallery-1.png', '/images/gallery-2.png'],

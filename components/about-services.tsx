@@ -1,7 +1,7 @@
 import { services } from '@/lib/projects'
 import { ContactForm } from '@/components/contact-form'
 
-const EMAIL = 'studio@nyxmedia.co'
+const EMAIL = 'contact@studionyxmedia.com'
 
 export function AboutServices() {
   return (
@@ -51,12 +51,10 @@ export function AboutServices() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-12 md:gap-8">
             <div className="md:col-span-5">
               <h2 className="font-serif text-4xl leading-none tracking-tight text-foreground md:text-6xl">
-                Let&apos;s make something
-                <br />
-                <span className="italic text-muted-foreground">in the dark.</span>
+                Let&apos;s make something.
               </h2>
               <p className="mt-8 max-w-sm text-sm leading-relaxed text-muted-foreground">
-                Commissions, collaborations, and considered enquiries only. Prefer email?
+                Commissions, collaborations, and considered enquiries only. Prefer emailing directly?
               </p>
               <a
                 href={`mailto:${EMAIL}`}

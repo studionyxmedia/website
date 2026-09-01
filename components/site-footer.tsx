@@ -9,7 +9,7 @@ export function SiteFooter() {
             href="#top"
             className="font-serif text-5xl leading-none tracking-tight text-foreground md:text-7xl"
           >
-            Studio Nyx
+            Studio Nyx Media
           </Link>
           <div className="grid grid-cols-2 gap-8 text-xs uppercase tracking-[0.2em] text-muted-foreground sm:grid-cols-3 md:text-right">
             <div className="flex flex-col gap-2">
@@ -29,21 +29,12 @@ export function SiteFooter() {
               <a href="#" className="transition-colors hover:text-foreground">
                 Instagram
               </a>
-              <a href="#" className="transition-colors hover:text-foreground">
-                Behance
-              </a>
-            </div>
-            <div className="flex flex-col gap-2">
-              <span className="text-foreground/50">Studio</span>
-              <span>Working worldwide</span>
-              <span>After dark</span>
             </div>
           </div>
         </div>
 
         <div className="mt-12 flex flex-col gap-2 border-t border-border pt-6 text-xs uppercase tracking-[0.2em] text-muted-foreground sm:flex-row sm:justify-between">
           <span>&copy; {new Date().getFullYear()} Studio Nyx Media</span>
-          <span>Images made after dark</span>
         </div>
       </div>
     </footer>
