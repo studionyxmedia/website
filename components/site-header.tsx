@@ -14,7 +14,7 @@ export function SiteHeader() {
           href="#top"
           className="font-serif text-lg leading-none tracking-tight text-white md:text-xl"
         >
-          Studio Nyx
+          Studio Nyx Media
         </Link>
         <nav aria-label="Primary">
           <ul className="flex items-center gap-6 text-xs uppercase tracking-[0.2em] text-white md:gap-10">
