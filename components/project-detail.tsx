@@ -108,10 +108,7 @@ export function ProjectDetail({ project, onClose }: ProjectDetailProps) {
           <div className="grid grid-cols-1 gap-px overflow-hidden border border-border bg-border md:grid-cols-3">
             {project.process.map((step) => (
               <article key={step.phase} className="bg-background p-8 md:p-10">
-                <span className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
-                  {step.phase}
-                </span>
-                <h4 className="mt-6 font-serif text-2xl leading-tight text-foreground md:text-3xl">
+                <h4 className="font-serif text-2xl leading-tight text-foreground md:text-3xl">
                   {step.title}
                 </h4>
                 <p className="mt-4 text-sm leading-relaxed text-muted-foreground">

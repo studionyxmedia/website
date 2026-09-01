@@ -18,7 +18,7 @@ export function WorksSection() {
             Selected Works
           </h2>
           <span className="hidden text-xs uppercase tracking-[0.25em] text-muted-foreground sm:block">
-            {projects.length} projects — 2023 / 2025
+            {projects.length} projects
           </span>
         </div>
 

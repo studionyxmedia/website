@@ -23,8 +23,7 @@ export function Hero() {
 
       <div className="relative mx-auto w-full max-w-[110rem] px-6 pb-16 md:px-10 md:pb-24">
         <p className="mb-8 max-w-md text-pretty text-sm leading-relaxed text-muted-foreground md:text-base">
-          <span className="text-foreground">Photography, visual production &amp; creative strategy.</span>{' '}
-          A boutique studio working in shadow, restraint, and the space between frames.
+          Visual production &amp; creative strategy
         </p>
 
         <h1 className="font-serif text-[18vw] leading-[0.82] tracking-tight text-foreground md:text-[13vw] lg:text-[120px]">
@@ -33,7 +32,7 @@ export function Hero() {
 
         <div className="mt-10 flex flex-col gap-6 border-t border-border pt-6 md:flex-row md:items-center md:justify-between">
           <p className="max-w-sm text-xs uppercase tracking-[0.25em] text-muted-foreground">
-            Est. — images made after dark
+            New York City
           </p>
           <Link
             href="#works"
