@@ -27,8 +27,8 @@ export function Hero() {
           A boutique studio working in shadow, restraint, and the space between frames.
         </p>
 
-        <h1 className="font-serif text-[18vw] leading-[0.82] tracking-tight text-foreground md:text-[13vw] lg:text-[11rem]">
-          Studio Nyx
+        <h1 className="font-serif text-[18vw] leading-[0.82] tracking-tight text-foreground md:text-[13vw] lg:text-[120px]">
+          Studio Nyx Media
         </h1>
 
         <div className="mt-10 flex flex-col gap-6 border-t border-border pt-6 md:flex-row md:items-center md:justify-between">
