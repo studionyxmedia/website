@@ -93,7 +93,7 @@ export function ProjectDetail({ project, onClose }: ProjectDetailProps) {
         {/* Client brief / ask */}
         <section className="grid grid-cols-1 gap-8 border-b border-border py-12 md:grid-cols-12 md:py-16">
           <h3 className="text-xs uppercase tracking-[0.25em] text-muted-foreground md:col-span-4">
-            The Brief
+            Brief
           </h3>
           <p className="max-w-2xl text-lg leading-relaxed text-pretty text-foreground/90 md:col-span-8">
             {project.brief}
@@ -128,9 +128,8 @@ export function ProjectDetail({ project, onClose }: ProjectDetailProps) {
             {project.gallery.map((src, i) => (
               <div
                 key={src + i}
-                className={`grain relative w-full overflow-hidden ${
-                  i % 3 === 0 ? 'aspect-[16/10]' : 'aspect-[4/3] md:aspect-[16/9]'
-                }`}
+                className={`grain relative w-full overflow-hidden ${i % 3 === 0 ? 'aspect-[16/10]' : 'aspect-[4/3] md:aspect-[16/9]'
+                  }`}
               >
                 <Image
                   src={src || '/placeholder.svg'}
