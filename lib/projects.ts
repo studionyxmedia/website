@@ -20,13 +20,13 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: 'nocturne',
+    slug: 'relivingChanel1992',
     index: '01',
     title: 'Reliving Chanel 1992',
     category: 'Fashion Editorial',
     client: 'Anthology of Style',
     year: '2025',
-    cover: '/images/work-nocturne.png',
+    cover: '/images/work-chanel1992-1.png',
     summary:
       'An editorial series exploring historical fashion for a luxury secondhand retail house.',
     brief:
@@ -48,7 +48,7 @@ export const projects: Project[] = [
         body: 'Editing and color work, retouching, and image sequencing for final images. Layout design for a printed hardcover book documenting the entire curation.',
       },
     ],
-    gallery: ['/images/work-nocturne.png', '/images/gallery-1.png', '/images/gallery-2.png'],
+    gallery: ['/images/work-chanel1992-1.png', '/images/gallery-1.png', '/images/gallery-2.png'],
   },
   {
     slug: 'concrete-bloom',
