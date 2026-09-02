@@ -77,7 +77,7 @@ export function ProjectDetail({ project, onClose }: ProjectDetailProps) {
               <dd className="mt-2 text-base text-foreground">{project.client}</dd>
             </div>
             <div>
-              <dt className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Discipline</dt>
+              <dt className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Area</dt>
               <dd className="mt-2 text-base text-foreground">{project.category}</dd>
             </div>
             <div>
