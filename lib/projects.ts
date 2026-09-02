@@ -48,7 +48,7 @@ export const projects: Project[] = [
         body: 'Editing and color work, retouching, and image sequencing for final images. Layout design for a printed hardcover book documenting the entire curation.',
       },
     ],
-    gallery: ['/images/work-chanel1992-1.png', '/images/gallery-1.png', '/images/gallery-2.png'],
+    gallery: ['/images/work-chanel1992-1.png', '/images/work-chanel1992-2.png', '/images/work-chanel1992-3.png'],
   },
   {
     slug: 'concrete-bloom',
